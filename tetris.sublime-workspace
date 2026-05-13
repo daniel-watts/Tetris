@@ -1,0 +1,592 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"a",
+				"auto\twidth"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"text-al",
+				"text-align\tproperty"
+			],
+			[
+				"s",
+				"sans-serif\tfont-family"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"border-bottom",
+				"border-bottom-width\tproperty"
+			],
+			[
+				"k",
+				"ksort"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"margin",
+				"shape-margin\tproperty"
+			],
+			[
+				"FFF",
+				"fff"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"assoc",
+				"associated_courses"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"oce_",
+				"oce_session_page"
+			],
+			[
+				"url",
+				"urldecode"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"border-bott",
+				"border-bottom-width"
+			],
+			[
+				"border-bot",
+				"border-bottom-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-attachment"
+			],
+			[
+				"array_p",
+				"array_pop"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"backgrou",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"brow",
+				"Browse Mode: Outline (Right)"
+			],
+			[
+				"package controle",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"installed",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"34y6436y"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/daniel/dev/kroger/.gitignore",
+		"/Users/daniel/dev/kroger/notes/notes.md",
+		"/Users/daniel/dev/kroger/notes/2026-05-02-claude-session.txt",
+		"/Users/daniel/dev/kroger/.env",
+		"/Users/daniel/Desktop/index.php",
+		"/Users/daniel/projects/dev/danielwatts.io/html/the-dance-of-death/index.php",
+		"/Users/daniel/Desktop/MIKES BACKUPS/Public - Movie Dirs.txt",
+		"/Users/daniel/projects/dev/danielwatts.io/html/wp-content/themes/onetheme/_Assets/notes.md",
+		"/Users/daniel/projects/dev/danielwatts.io/html/bochord/index.php",
+		"/Users/daniel/projects/dev/danielwatts.io/html/dance-of-death/index.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/functions.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/wp_helpers.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/parts/single.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/parts/doc_top.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/parts/single_visual_art.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/page.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/page_404.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/index.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/doc_bottom.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/pagination_bar.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/doc_title.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/classes/wp_helpers.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/css/elements.css",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/multiple.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/css/design.css",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/html_docs/page.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/title.php",
+		"/Users/daniel/Desktop/book.txt",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/multiple_visual_art.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/single_visual_art.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/single.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/doc_top.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/local-dev-setup.md",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/column_left.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/README.md",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/column_right.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/three_col-template.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/js/wph.js",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/two_col-template.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/two_col_left-template.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/two_col_right-template.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/backups/js/wph_toc.js",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/right_sidebar.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/footer_widgets.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/copyright.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/sidebar_right-template.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/content/pagination_links.php",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/style.css",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/js/jquery-2.1.4.min.js",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/css/reset.css",
+		"/Users/daniel/projects/dev/wph/html/wp-content/themes/wph/html_docs/page_404.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/readme.md",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/custom/places_taxonomy.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-config.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-config-ddev.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/functions.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/manager.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/custom/artists_taxonomy.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/index.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/layout_a_template.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/custom/visual_art_taxonomy.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/custom/visual_art_post_type.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/css/theme.css",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/custom/audio_art_post_type.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/visual_art_post_type.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/layout_b_template.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/page_title.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/404.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/post_stub.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/post_full.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/css/layout.css",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/page_single.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/doc_top.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/post.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/page_front.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog_post_single.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog_post_listed.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/page_listed.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/doc_bottom.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/css/content.css",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/manager.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog_post_homepage.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/post_date.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/post_share_state.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/wattswork/css/elements.css",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/layout_d_template.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/test_template_a.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/css/reset.css",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog_post_list.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/attachment.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/single.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/list.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/wattswork/partials/doc_top.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog_single.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/blog_list.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/partials/doc_title.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/includes/page.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/wattswork/wp_helper/wp_helper.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/wattswork/index.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/onetheme/style.css",
+		"/Users/daniel/projects/danielwatts.io/html/index.php",
+		"/Users/daniel/projects/danielwatts.io/html/wp-content/themes/twentytwentythree/patterns/footer-default.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/index.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-19-2022/page.css",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-20-2022/page.css",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-22-2022/page.css",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-22-2022/settings.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-22-2022/index_content.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-22-2022/index.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-20-2022/settings.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-20-2022/index.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-20-2022/index_content.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-19-2022/index_content.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-19-2022/index.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/live-nov-19-2022/settings.php",
+		"/Users/daniel/projects/the.drood/thedrood.com/Code/html/htdocs/css/text.css",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/psychic-institute/page.css",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/psychic-institute/index.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/psychic-institute/index_content.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/index.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/it-must-needs-wither/index_content.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/psychic-institute/settings.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/css/page.css",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/it-must-needs-wither/page.css",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/it-must-needs-wither/index.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/epk/index.php",
+		"/Users/daniel/projects/audio/the.drood/thedrood.com/Code/html/htdocs/epk/psychic-institute/index.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/daniel/dev/kroger",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tetris.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ww",
+				"html/wp-content/themes/wattswork/css/ww_widgets.css"
+			],
+			[
+				"login.php",
+				"ocep/OCEP/Views/login.php"
+			],
+			[
+				"",
+				"css/ocep_admin_styles.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 364.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
