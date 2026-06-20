@@ -22,22 +22,33 @@
     overflow: hidden;
   }
   .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: max-content max-content;
     gap: 24px;
-    align-items: flex-start;
     justify-content: center;
+    align-content: start;
     padding: 24px;
     height: 100%;
     box-sizing: border-box;
   }
   .board-wrap {
     position: relative;
-  }
-  canvas#board {
-    background: var(--panel);
+    width: 320px;
+    background: #000;
+    padding: 8px;
     border: 2px solid var(--grid);
     border-radius: 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas#board {
+    width: 300px;
+    height: 600px;
     display: block;
+    background: #555;
   }
   .side {
     display: flex;
@@ -61,8 +72,7 @@
   .panel canvas {
     display: block;
     margin: 0 auto;
-    background: #11131a;
-    border-radius: 2px;
+    background: transparent;
   }
   .stats div {
     display: flex;
@@ -181,6 +191,8 @@
   let gameOver, paused;
   let animation = null; // { phase: 'blink'|'fade'|'drop', t, clearingRows, preBoard? }
   const BLINK_MS = 240, FADE_MS = 140, DROP_MS = 220;
+  let lockTimer = 0;
+  const LOCK_DELAY = 500;
 
   function newBoard() {
     return Array.from({ length: ROWS }, () => new Array(COLS).fill(0));
@@ -211,6 +223,7 @@
       x: Math.floor((COLS - w) / 2),
       y: type === 'I' ? -1 : 0,
     };
+    lockTimer = 0;
     if (collides(current.shape, current.x, current.y)) {
       gameOver = true;
       showOverlay('Game Over', 'Press R to restart');
@@ -304,8 +317,7 @@
       current.y++;
       score += 1;
       updateStats();
-    } else {
-      lockPiece();
+      lockTimer = 0;
     }
     dropAccum = 0;
   }
@@ -323,7 +335,10 @@
 
   function move(dx) {
     if (gameOver || paused || !current) return;
-    if (!collides(current.shape, current.x + dx, current.y)) current.x += dx;
+    if (!collides(current.shape, current.x + dx, current.y)) {
+      current.x += dx;
+      lockTimer = 0;
+    }
   }
 
   function rotate() {
@@ -334,6 +349,7 @@
       if (!collides(rotated, current.x + dx, current.y)) {
         current.shape = rotated;
         current.x += dx;
+        lockTimer = 0;
         return;
       }
     }
@@ -376,21 +392,6 @@
 
   function drawBoard() {
     bctx.clearRect(0, 0, boardCanvas.width, boardCanvas.height);
-    // grid
-    bctx.strokeStyle = 'rgba(255,255,255,0.04)';
-    bctx.lineWidth = 1;
-    for (let x = 1; x < COLS; x++) {
-      bctx.beginPath();
-      bctx.moveTo(x * CELL + 0.5, 0);
-      bctx.lineTo(x * CELL + 0.5, ROWS * CELL);
-      bctx.stroke();
-    }
-    for (let y = 1; y < ROWS; y++) {
-      bctx.beginPath();
-      bctx.moveTo(0, y * CELL + 0.5);
-      bctx.lineTo(COLS * CELL, y * CELL + 0.5);
-      bctx.stroke();
-    }
 
     // drop phase: render preBoard with rows sliding into cleared positions
     if (animation && animation.phase === 'drop') {
@@ -522,16 +523,23 @@
         } else if (animation.phase === 'drop' && animation.t >= DROP_MS) {
           finishClearAnimation();
         }
-      } else {
+      } else if (current) {
         dropAccum += dt;
         while (dropAccum >= dropInterval) {
           dropAccum -= dropInterval;
           if (!collides(current.shape, current.x, current.y + 1)) {
             current.y++;
           } else {
-            lockPiece();
             break;
           }
+        }
+        const grounded = collides(current.shape, current.x, current.y + 1);
+        if (grounded) {
+          dropAccum = 0;
+          lockTimer += dt;
+          if (lockTimer >= LOCK_DELAY) lockPiece();
+        } else {
+          lockTimer = 0;
         }
       }
     }
@@ -602,6 +610,7 @@
     gameOver = false;
     paused = false;
     animation = null;
+    lockTimer = 0;
     hideOverlay();
     spawn(nextFromBag());
     updateStats();
