@@ -1,4 +1,5 @@
-tetris.sublime-project
-tetris.sublime-workspace
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
 .DS_Store
 **/.DS_Store
